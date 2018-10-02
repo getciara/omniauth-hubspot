@@ -27,7 +27,7 @@ Next, tell OmniAuth about this provider. For a Rails app, your `config/initializ
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :hubspot, 'API_KEY', 'API_SECRET', scope: 'contacts timeline'
+  provider :hubspot, 'API_KEY', 'API_SECRET', scope: 'contacts timeline', optional_scope: 'content'
 end
 ```
 
