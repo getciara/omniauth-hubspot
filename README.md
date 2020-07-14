@@ -1,4 +1,6 @@
 # Omniauth::Hubspot
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgetciara%2Fomniauth-hubspot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgetciara%2Fomniauth-hubspot?ref=badge_shield)
+
 
 This Gem contains the Hubspot strategy for OmniAuth.
 
@@ -82,3 +84,7 @@ Querying the access token endpoint as defined [here](https://developers.hubspot.
 ## Special Thanks
 
 In a rush, I borrowed heavily from [kmrshntr](https://github.com/kmrshntr)'s Slack Strategy in order to make this work. Thanks!
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgetciara%2Fomniauth-hubspot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgetciara%2Fomniauth-hubspot?ref=badge_large)
